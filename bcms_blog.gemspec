@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.files += Dir["lib/**/*"]
   s.files -= Dir["lib/tasks/build_gem.rake"]
   s.files -= Dir["config/initializers"]
-  s.add_dependency('browsercms', '3.3.0')
+  s.add_dependency('browsercms', '3.3.1')
 
 end
 
